@@ -14,9 +14,9 @@ body{
 main{
     display: grid;
     grid-template-columns: 245px 245px 245px 245px;
-    grid-template-rows: 272px 250px;
-    row-gap: 20px;
-    column-gap: 25px;
+    grid-template-rows: 272px 252px;
+    row-gap: 22px;
+    column-gap: 26px;
     overflow: hidden;
 }
 
@@ -26,7 +26,7 @@ main{
     align-items: center;
     justify-content: center;
     flex-flow: column wrap;
-    gap: 17.6px;
+    gap: 17.5px;
 }
 
 .message01{
@@ -45,7 +45,8 @@ main{
     grid-column: 4 / 5;
     grid-row: 1 / span 2;
     background-color: #ffffff;
-    gap: 21.5px;
+    gap: 19px;
+
 }
 
 .message04{
@@ -60,6 +61,46 @@ main{
     background-color: #19202D;
 }
 
+#aspas{
+    z-index: 1;
+    position: absolute;
+    translate: 120px -85px;
+}
+
+.box{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    position: relative;
+    margin: 0;
+}
+
+.box04{
+    right: 20px;
+}
+
+.box03{
+    right: 30px;
+    top: 1px;
+}
+
+.box05{
+    right: 145px;
+}
+
+.perfil{
+    margin: 0;
+    width: 50%;
+    font-size: 12.0px;
+    color:#48556A;
+    font-weight: 500;
+}
+
+span{
+    opacity: 50%;
+    font-size: 10.5px;
+}
+
 .title{
     font-weight: 600;
     font-size: 18.5px;
@@ -68,11 +109,12 @@ main{
 }
 
 .text{,
-    font-weight: 600;
-    font-size: 12.09px;
+    font-weight: 500;
+    font-size: 12.0px;
     margin: 0;
     line-height: 1.45;
     z-index: 5;
+    position: relative;
 }
 
 .title01, .title02, .title05, .text01, .text05 {
@@ -104,6 +146,7 @@ main{
 }
 
 .text03{
+    margin-top: 3.5px;
+    line-height: 1.505;
     width: 75%;
 }
-
